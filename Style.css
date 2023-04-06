@@ -305,7 +305,9 @@ p {
     justify-content: center;
     overflow-x: hidden;
 }
-
+#Cert1 {
+    width: 30%        
+}
 #instaC {
     font-size: 1.9em;
     color: #F99099;
