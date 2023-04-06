@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&family=Yellowtail&display=swap');
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    display: flex;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 300px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.in-flex div {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+
+h4 {
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 1.9em;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 4px;
+    width: 90%;
+  }
+a img{
+    display:flex;
+    padding-top: 2.4em;
+    padding-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    height: auto;
+    flex-direction: column;
+}
+a img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+a {
+   overflow-y: hidden
+   }
+#insta {
+    padding: 1em;
+}
+
+#Logo {
+    border-radius:15em;
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
+
+h2 {
+    font-family: "yellowtail";
+    text-align: center;
+    font-size: 4em;
+    color: #ffe3ce;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+h3 {
+    font-family: "Alkatra";
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #F99099;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+
+
+#semipermanentes {
+    background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Semi2.png");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center center;
+    min-height: 90em;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+   
+}
+
+
+#kapping {
+    background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.6)), url("Kapping.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center center;
+    min-height: 90em;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#nailart {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("NailArt.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 90em;
+    padding: 0;  
+    margin: 0;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#esculpidas {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Esculpidas.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;  
+    min-height: 90em;
+    padding: 0; 
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#softgel {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("SoftGel.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 90em;
+    padding: 0; 
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+#tipsesc {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("Tips.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 90em;
+    padding: 0; 
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+ul{
+    font-family: "Alkatra";
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    width: 80%;
+}
+
+
+#Lista1 {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("Lista1.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2.9em;
+    color: #fa93d3;
+    background-position-x: -0.02em;
+}
+
+#Lista2 {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("Lista2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2.9em;
+    color: black;
+    background-position-x: -0.11em;
+}
+#Lista3 {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("Lista3.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 3em;
+    color: #fa93d3; 
+    background-position-x: -0.11em;
+}
+#Lista4 {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("Lista4.webp");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 3em; 
+    color: black;
+    background-position-x: -0.11em;
+}
+#Lista5 {
+    margin: 0;
+    padding: 36px 0px 36px 84px;
+    list-style: none;
+    background-image: url("Lista5.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2.3em;
+    background-position-x: -0.4em;
+    color: #fa93d3;
+}
+
+#sobremi{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url("SobreMi.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   
+    margin: 0;
+    min-height: 90em;
+    padding: 0;  
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.content {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    position:abs;
+    display:flex;
+    /*font-weight: bold;*/
+    color: white;
+    font-family: "Alkatra";
+    font-size: 1.9em;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+#instaC {
+    font-size: 1.9em;
+    color: #F99099;
+}
