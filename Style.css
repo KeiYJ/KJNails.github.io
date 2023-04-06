@@ -125,7 +125,7 @@ h3 {
 
 
 #semipermanentes {
-    background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Semi2.png");
+   /* background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Semi2.png");
     background-attachment: fixed;
     background-size:cover;
     background-position:center center;
@@ -133,7 +133,16 @@ h3 {
     padding: 0;
     display: flex;
     width: 100%;
-    height: auto;
+    height: auto;*/
+    
+    
+    
+    background: url("images/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
    
 }
 
