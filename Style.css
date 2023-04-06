@@ -144,7 +144,14 @@ h3 {
     -o-background-size: cover;
 background-size: cover;
 background-repeat: no-repeat;
-   
+    min-height: 90em;
+
+    padding: 0;
+
+    display: flex;
+
+   width: 100%;
+   background-attachment: fixed;
 }
 
 
