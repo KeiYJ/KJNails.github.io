@@ -153,7 +153,8 @@ h3 {
 
   text-align:center;
 
-  margin:auto;
+  margin-left: auto;
+    margin-right: auto;
 
   padding:0;
    background-attachment: fixed;
