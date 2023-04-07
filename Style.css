@@ -138,19 +138,24 @@ h3 {
     
     
 
-    background: url("Semi2.png") no-repeat 50% 50% fixed;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-background-size: cover;
-background-repeat: no-repeat;
-    min-height: 90em;
+   
+  width: 1200px;
 
-    padding: 0;
+  height:600px;
 
-    display: flex;
+  background-image: url("Semi2.png");
 
-   width: 100%;
+  background-size: cover; /* or "contain" depending on what you want */
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  text-align:center;
+
+  margin:auto;
+
+  padding:0;
    background-attachment: fixed;
 }
 
