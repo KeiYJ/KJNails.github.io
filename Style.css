@@ -122,12 +122,11 @@ h3 {
     height: auto;
 }
 
-@supports not (background-attachment: fixed()) {
-    .content {
+@media not all and (min-resolution: 0.001dpcm) {
+.content { 
     background-attachment: scroll;
 }
 }
-
 #semipermanentes {
     background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Semi2.png");
     background-attachment: fixed;
