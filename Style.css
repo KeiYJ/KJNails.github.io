@@ -326,7 +326,7 @@ ul{
     width: 100%;
 }
 #laminado {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("laminado.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Laminado.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -340,7 +340,7 @@ ul{
 
 
 #extension {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("extension.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Extension.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -352,7 +352,7 @@ ul{
     width: 100%;
 }
 #lifting {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("lifting.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Lifting.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -364,7 +364,7 @@ ul{
     width: 100%;
 }
 #liftingK {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("liftingK.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("LiftingK.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
