@@ -109,7 +109,11 @@ a {
    overflow-y: hidden
    }
 #insta {
-    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2.2em;
+}
+#wpp {
+    padding-bottom: 2.2em;
 }
 
 #Logo {
