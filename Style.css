@@ -62,7 +62,6 @@ h1 {
 #Cejas {
     font-size: 6em;
 }
-
 h4 {
     font-family: "Roboto";
     color: #fff;
@@ -71,8 +70,6 @@ h4 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 4em;
-
 }
 hr {
     display: block;
@@ -314,6 +311,57 @@ ul{
     color: #fa93d3;
 }
 
+
+#perfilado {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("Perfilado.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    min-height: 90em;
+    padding: 0; 
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+#laminado {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("laminado.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    min-height: 90em;
+    padding: 0; 
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+
+#extension {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("extension.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    min-height: 90em;
+    padding: 0; 
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+#lifting {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("lifting.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    min-height: 90em;
+    padding: 0; 
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
 #sobremi{
     background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url("Certificacion.jpeg");
     background-attachment: scroll;
