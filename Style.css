@@ -57,18 +57,12 @@ h1 {
     background:#ffe3ce;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    width; 100%;
+    width: 100%;
 }
 #Cejas {
     font-size: 6em;
 }
-#Cejas.wrapper {
-    display: flex;
-    background:#ffe3ce;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    width: 100%;
-}
+
 h4 {
     font-family: "Roboto";
     color: #fff;
