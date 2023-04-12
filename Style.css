@@ -55,7 +55,8 @@ h1 {
 .wrapper {
     display: flex;
     background:#ffe3ce;
-    padding: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     width; 100%;
 }
 #Cejas {
@@ -64,7 +65,8 @@ h1 {
 #Cejas.wrapper {
     display: flex;
     background:#ffe3ce;
-    padding: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     width: 100%;
 }
 h4 {
