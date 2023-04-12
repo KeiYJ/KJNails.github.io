@@ -326,7 +326,7 @@ ul{
     width: 100%;
 }
 #laminado {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Laminado.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("laminado.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -340,7 +340,7 @@ ul{
 
 
 #extension {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Extension.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("extension.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -352,7 +352,7 @@ ul{
     width: 100%;
 }
 #lifting {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Lifting.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("lifting.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -364,7 +364,7 @@ ul{
     width: 100%;
 }
 #liftingK {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("LiftingK.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("liftingK.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -410,12 +410,29 @@ p {
     justify-content: center;
     overflow-x: hidden;
 }
+#final {
+    line-height: 2.1em;
+}
 #Cert1 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 #instaC, #instaC2, #wppB {
-    font-size: 1.9em;
-    color: #F99099;
+    font-family: "yellowtail";
+    text-align: center;
+    font-size: 3em;
+    color: #ffe3ce;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+#instaC:hover, #instaC2:hover, #wppB:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
