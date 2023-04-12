@@ -109,7 +109,7 @@ a {
 }
 
 #Logo {
-    border-radius: 9em;
+    border-radius: 10em;
     display:flex;
     flex-direction: column;
     width: 30%;
