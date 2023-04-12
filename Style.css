@@ -123,7 +123,7 @@ h3 {
 }
 
 @supports not (background-attachment: fixed()) {
-    #kapping, #nailart, #esculpidas, #softgel, #tipsesc, #sobremi {
+    .content {
     background-attachment: scroll;
 }
 }
