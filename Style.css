@@ -122,14 +122,9 @@ h3 {
     height: auto;
 }
 
-@media not all and (min-resolution: 0.001dpcm) {
-.content { 
-    background-attachment: scroll;
-}
-}
 #semipermanentes {
     background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Semi2.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size:cover;
     background-position:center center;
     min-height: 90em;
@@ -166,7 +161,7 @@ h3 {
 
 #kapping {
     background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.6)), url("Kapping.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position:center center;
     min-height: 90em;
@@ -180,7 +175,7 @@ h3 {
 
 #nailart {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("NailArt.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -194,7 +189,7 @@ h3 {
 
 #esculpidas {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Esculpidas.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -208,7 +203,7 @@ h3 {
 
 #softgel {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("SoftGel.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -220,7 +215,7 @@ h3 {
 }
 #tipsesc {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("Tips.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -300,7 +295,7 @@ ul{
 
 #sobremi{
     background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url("Certificacion.jpeg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
    
