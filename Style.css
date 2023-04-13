@@ -86,7 +86,6 @@ hr {
   }
 a img{
     display:flex;
-    margin-top: 1em;
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -422,7 +421,7 @@ p {
 #instaC, #instaC2, #wppB {
     font-family: "yellowtail";
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     color: #ffe3ce;
     padding-top: 1em;
     padding-bottom: 0.5em;
