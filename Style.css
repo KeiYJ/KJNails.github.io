@@ -438,7 +438,7 @@ p {
     transition: 0.3s;
 }
 
-@media(min-width: 1500px){
+/*@media(min-width: 1500px){
     #semipermanentes, #kapping, #esculpidas, #nailart, #softgel, #tipsesc, #perfilado, #laminado, #extension, #lifting, #liftingK, #sobremi { 
         background-attachment: fixed;
     }
@@ -449,4 +449,4 @@ p {
     #Logo {
         width: 20%;
     }
-}
+}*/
