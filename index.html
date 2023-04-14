@@ -15,7 +15,51 @@
     
 </head>
 <body>
+    <header>
+        <a id="reserva" href="#Reserva">¡Reservá tu turno!</a>
+        
+        <div class="navbar">
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </div>
 
+
+
+
+            <div class="dropdown_menu">
+                <ul class="links">
+                    <li><a id="inicio" href="#Logo">INICIO</a></li> 
+                    <li><a id="manicu" href="#Mani">Manicura</a></li> 
+                    <li><a href="#semipermanentes">Semipermanentes</a></li> 
+                    <li><a href="#kapping">Kapping</a></li> 
+                    <li><a href="#nailart">NailArt</a></li> 
+                    <li><a href="#esculpidas">Esculpida</a></li>
+                    <li><a href="#softgel">SoftGel</a> </li>
+                    <li><a href="#tipsesc">Tips</a> </li>
+                    <li><a id="cej" href="#Cejas">Cejas</a></li> 
+                    <li><a href="#perfilado">Perfilado</a></li>
+                    <li><a href="#laminado">Laminado</a></li>
+                    <li><a id="pesta" href="#Pestañas">Pestañas</a> </li>
+                    <li><a href="#extension">Extension</a> </li>
+                    <li><a href="#lifting">Lifting</a> </li>
+                    <li><a href="#liftingK">Lifting Keratina</a> </li>
+                    <li><a href="#sobremi">Certificados</a> </li>
+                </ul>
+            </div>
+        
+    </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropdownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function() {
+            dropdownMenu.classList.toggle('open')
+            const isOpen = dropdownMenu.classList.contains('open')
+        }
+    </script>
     
     <div class="home">
                     
