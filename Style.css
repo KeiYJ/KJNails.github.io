@@ -115,7 +115,7 @@ i {
     transform: scale(1.1);
 }
 #reserva {
-    position: absolute;
+    position: flex;
     right: 1em;
     top: 30px;
     background-color: crimson;
