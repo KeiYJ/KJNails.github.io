@@ -9,6 +9,7 @@
     <meta name="keywords" content="kj nails, kj, kj beauty studio, uñas, kapping, capping, semi, semipermanentes, semipermanente, nailart, nail art, esculpidas, softgel, necochea, mar del plata, manicura, uñas necochea, kapping necochea, semipermanentes necochea, softgel necochea, polygel necochea, esculpidas necochea, uñas mar del plata, kapping mar del plata, semipermanentes mar del plata, softgel mar del plata, polygel mar del plata, esculpidas mar del plata">
     <meta name="author" content="Nicola Satragni">
     <meta name="google-site-verification" content="9Op6S-g50Akos0n7mcVhvdhc169Iwrav7F0DkyloVh4" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>KJ Nails</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="Icon" href="LogoKeiFondo.jpg">
@@ -58,6 +59,10 @@
         toggleBtn.onclick = function() {
             dropdownMenu.classList.toggle('open')
             const isOpen = dropdownMenu.classList.contains('open')
+        
+         toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
         }
     </script>
     
