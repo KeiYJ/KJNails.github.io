@@ -116,7 +116,7 @@ i {
 }
 #reserva {
     position: absolute;
-    right: 80px;
+    right: 1em;
     top: 30px;
     background-color: crimson;
     text-align: center center;
