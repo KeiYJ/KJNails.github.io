@@ -40,6 +40,118 @@ body {
     display: flex;
 }
 
+
+/* MENU DESPLEGABLE*/
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+    line-height: 35px;
+
+}
+#inicio {
+    font-family: "yellowtail";
+    font-size: 35px;
+    text-decoration:underline;
+    color: #1b1b1b;
+
+}
+
+.toggle_btn {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+    font-size: 30px;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    line-height: 69px;
+    cursor: pointer;
+    transition: .3s;
+    left: 50px;
+    top: 50px;
+    
+}
+li {
+    list-style: none;
+    text-indent: 0;
+}
+i {
+    position: relative;
+    left: 20px;
+    color: #fff;
+}
+.toggle_btn:hover{
+    box-shadow: 0 0 35px #fff;
+    }
+
+.dropdown_menu { 
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-family: "roboto";
+    font-weight: bold;
+    background-color: crimson;
+    width: 190px;
+    height: 0px;
+    left: 130px;
+    top: 80px;
+    border-radius: 10px;
+    display: none;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .dropdown_menu.open {
+        height: 590px;
+        display: block;
+    }
+    
+
+
+#reserva:hover {
+    box-shadow: 0 0 35px #fff;
+    transform: scale(1.1);
+}
+#reserva {
+    position: absolute;
+    right: 80px;
+    top: 30px;
+    background-color: crimson;
+    text-align: center center;
+    padding: 40px;
+    border-radius: 5pc;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 30px;
+    transition: .2s;
+    text-indent: 0;
+    
+}
+
+
+
+a:hover {
+    color: #1b1b1b;
+    font-size: larger;
+
+}
+#manicu, #cej, #pesta {
+    font-family: "yellowtail";
+    font-size: 29px;
+    text-decoration:underline;
+    color: #1b1b1b;
+}
+
+#manicu:hover, #cej:hover, #pesta:hover{
+    font-size: larger;
+}
+
+/*FIN MENU DESPLEGABLE*/
+
+
+
 h1 {
     font-family: "Roboto";
     color: #1b1b1b;
