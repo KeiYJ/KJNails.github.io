@@ -71,7 +71,7 @@ a {
     border-radius: 50%;
     line-height: 69px;
     cursor: pointer;
-    transition: .3s;
+    /*transition: .3s;*/
     left: 50px;
     top: 50px;
     
@@ -104,7 +104,7 @@ i {
     top: 130px;
     border-radius: 10px;
     display: none;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);*/
     }
 
     .dropdown_menu.open {
@@ -129,7 +129,7 @@ i {
     font-family: "roboto";
     font-weight: bold;
     font-size: 30px;
-    transition: .2s;
+    /*transition: .2s;*/
     text-indent: 0;
     
 }
@@ -210,7 +210,7 @@ a img{
 }
 a img:hover {
     transform: scale(1.1);
-    transition: 0.3s;
+    /*transition: 0.3s;*/
 }
 
 a {
@@ -549,7 +549,7 @@ p {
 }
 #instaC:hover, #instaC2:hover, #wppB:hover {
     transform: scale(1.1);
-    transition: 0.3s;
+   /* transition: 0.3s;*/
 }
 
 @media(min-width: 952px){
