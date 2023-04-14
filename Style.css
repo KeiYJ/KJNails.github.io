@@ -64,6 +64,7 @@ a {
     margin: 0;
     padding: 0;
     background-color: crimson;
+    opacity: 0.9;
     font-size: 30px;
     width: 68px;
     height: 68px;
@@ -95,6 +96,8 @@ i {
     font-family: "roboto";
     font-weight: bold;
     background-color: crimson;
+    opacity: 0.9;
+
     width: 190px;
     height: 0px;
     left: 50px;
