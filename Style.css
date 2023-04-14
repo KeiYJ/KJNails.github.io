@@ -121,6 +121,7 @@ i {
     background-color: crimson;
     text-align: center center;
     padding: 40px;
+    padding-right: 0;
     border-radius: 5pc;
     font-family: "roboto";
     font-weight: bold;
