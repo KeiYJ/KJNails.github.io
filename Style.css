@@ -48,7 +48,7 @@ body {
 }
 #reserva {
     position: absolute;
-    right: 3%;
+    left: 90%;
     top: 30px;
     background-color: crimson;
     border-radius: 5pc;
