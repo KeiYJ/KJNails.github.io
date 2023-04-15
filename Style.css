@@ -544,6 +544,7 @@ p {
     flex-direction: column;
     /*width: auto;
     height: auto;*/
+    overflow-y: hidden;
 }
 #instaC:hover, #instaC2:hover, #wppB:hover {
     transform: scale(1.1);
