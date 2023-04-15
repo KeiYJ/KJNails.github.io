@@ -47,17 +47,18 @@ body {
     transform: scale(1.1);
 }
 #reserva {
-    position: absolute;
-    left: 99%;
-    top: 30px;
+    position: block;
     background-color: crimson;
     border-radius: 5pc;
     font-family: "roboto";
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     transition: .2s;
-    text-indent: 0;
-    margin:0; 
+    margin-left:auto;
+    margin-right:auto;
+    flex-direction:column;
+    padding:1em;
+    margin-bottom:6em
 }
 
 /* MENU DESPLEGABLE*/
@@ -559,6 +560,16 @@ p {
     }
     #Logo {
         width: 20%;
+    }
+    
+    #reserva {
+    font-size: 30px;
+    transition: .2s;
+    margin-left:auto;
+    margin-right:auto;
+    flex-direction:column;
+    padding:1em;
+    margin-bottom:1em
     }
 }
 
