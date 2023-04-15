@@ -550,7 +550,7 @@ p {
     transition: 0.3s;
 }
 
-@media(min-width: 952px){
+@media(max-width: 952px){
     #semipermanentes, #kapping, #esculpidas, #nailart, #softgel, #tipsesc, #perfilado, #laminado, #extension, #lifting, #liftingK, #sobremi { 
         background-attachment: fixed;
     }
