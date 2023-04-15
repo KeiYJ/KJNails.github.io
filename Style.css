@@ -42,6 +42,24 @@ body {
     display: flex;
 }
 
+#reserva:hover {
+    box-shadow: 0 0 35px #fff;
+    transform: scale(1.1);
+}
+#reserva {
+    position: absolute;
+    right: 3%;
+    top: 30px;
+    background-color: crimson;
+    border-radius: 5pc;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 30px;
+    transition: .2s;
+    text-indent: 0;
+    margin:0; 
+}
+
 /* MENU DESPLEGABLE*/
 
 a {
@@ -114,26 +132,6 @@ i {
     
 
 
-#reserva:hover {
-    box-shadow: 0 0 35px #fff;
-    transform: scale(1.1);
-}
-#reserva {
-    position: absolute;
-    left: 5em;
-    top: 30px;
-    background-color: crimson;
-    border-radius: 5pc;
-    font-family: "roboto";
-    font-weight: bold;
-    font-size: 30px;
-    transition: .2s;
-    text-indent: 0;
-    margin:0;
-    
-}
-
-
 
 a:hover {
     color: #1b1b1b;
@@ -152,6 +150,8 @@ a:hover {
 }
 
 /*FIN MENU DESPLEGABLE*/
+
+
 
 h1 {
     font-family: "Roboto";
