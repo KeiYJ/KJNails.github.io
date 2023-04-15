@@ -120,7 +120,7 @@ i {
 }
 #reserva {
     position: absolute;
-    right: 0.5em;
+    left: 5em;
     top: 30px;
     background-color: crimson;
     border-radius: 5pc;
