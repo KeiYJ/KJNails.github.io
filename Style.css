@@ -261,7 +261,7 @@ h3 {
 
 #semipermanentes {
     background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Img/Semi2.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size:cover;
     background-position:center center;
     min-height: 90em;
@@ -291,7 +291,7 @@ h3 {
 
 #kapping {
     background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.6)), url("Img/Kapping.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position:center center;
     min-height: 90em;
@@ -305,7 +305,7 @@ h3 {
 
 #nailart {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/NailArt.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -319,7 +319,7 @@ h3 {
 
 #esculpidas {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/Esculpidas.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -333,7 +333,7 @@ h3 {
 
 #softgel {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/SoftGel.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -345,7 +345,7 @@ h3 {
 }
 #tipsesc {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("Img/Tips.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -426,7 +426,7 @@ ul{
 
 #perfilado {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Perfilado.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -438,7 +438,7 @@ ul{
 }
 #laminado {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Laminado.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -452,7 +452,7 @@ ul{
 
 #extension {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Extension.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -464,7 +464,7 @@ ul{
 }
 #lifting {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Lifting.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -476,7 +476,7 @@ ul{
 }
 #liftingK {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/LiftingK.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 90em;
@@ -488,7 +488,7 @@ ul{
 }
 #sobremi{
     background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url("Img/Certificacion.jpeg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
    
@@ -553,14 +553,15 @@ p {
     padding: 4em;
 }
 
-@media(min-width: 952px) {
+@media screen and (max-width: 952px) {
+    
     #semipermanentes, #kapping, #esculpidas, #nailart, #softgel, #tipsesc, #perfilado, #laminado, #extension, #lifting, #liftingK, #sobremi { 
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
     a img {
-        padding-bottom: 3em;
+        padding-bottom: 1.5em;
         margin-top: 0%;
-        width:35%;
+        width:40%;
     }
     #Logo {
         width: 20%;
@@ -575,6 +576,6 @@ p {
     margin-right:auto;
     flex-direction:column;
     padding:1em;
-    margin-bottom:1em;
+    margin-bottom:2em;
     }
 }
