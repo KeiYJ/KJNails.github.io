@@ -5,220 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <meta name="description" content="Mar del Plata - Necochea. Hago Kapping, Semipermanentes, NailArt, Esculpidas, SoftGel">
     <meta name="keywords" content="kj nails, kj, kj beauty studio, uñas, kapping, capping, semi, semipermanentes, semipermanente, nailart, nail art, esculpidas, softgel, necochea, mar del plata, manicura, uñas necochea, kapping necochea, semipermanentes necochea, softgel necochea, polygel necochea, esculpidas necochea, uñas mar del plata, kapping mar del plata, semipermanentes mar del plata, softgel mar del plata, polygel mar del plata, esculpidas mar del plata">
     <meta name="author" content="Nicola Satragni">
     <meta name="google-site-verification" content="9Op6S-g50Akos0n7mcVhvdhc169Iwrav7F0DkyloVh4" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>KJ BeautyStudio</title>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="Icon" href="LogoKeiFondo.jpg">
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="Icon" href="Img/LogoKeiFondo.jpg">
 </head>
 
 <body>
-    <header>    
-        <div class="navbar">
-                <div class="toggle_btn">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-        </div>
 
-            <div class="dropdown_menu">
-                <ul class="links">
-                    <li><a id="inicio" href="#Logo">INICIO</a></li> 
-                    <li><a id="manicu" href="#Mani">Manicura</a></li> 
-                    <li><a href="#semipermanentes">Semipermanentes</a></li> 
-                    <li><a href="#kapping">Kapping</a></li> 
-                    <li><a href="#nailart">NailArt</a></li> 
-                    <li><a href="#esculpidas">Esculpida</a></li>
-                    <li><a href="#softgel">SoftGel</a> </li>
-                    <li><a href="#tipsesc">Tips</a> </li>
-                    <li><a id="cej" href="#Cejas">Cejas</a></li> 
-                    <li><a href="#perfilado">Perfilado</a></li>
-                    <li><a href="#laminado">Laminado</a></li>
-                    <li><a id="pesta" href="#Pestañas">Pestañas</a> </li>
-                    <li><a href="#extension">Extension</a> </li>
-                    <li><a href="#lifting">Lifting</a> </li>
-                    <li><a href="#liftingK">Lifting Keratina</a> </li>
-                    <li><a href="#sobremi">Certificados</a> </li>
-                </ul>
-            </div>
-        
-    </header>
-
-    <script>
-        const toggleBtn = document.querySelector('.toggle_btn')
-        const toggleBtnIcon = document.querySelector('.toggle_btn i')
-        const dropdownMenu = document.querySelector('.dropdown_menu')
-
-        toggleBtn.onclick = function() {
-            dropdownMenu.classList.toggle('open')
-            const isOpen = dropdownMenu.classList.contains('open')
-        
-         toggleBtnIcon.classList = isOpen
-        ? 'fa-solid fa-xmark'
-        : 'fa-solid fa-bars'
-        }
-    </script>
     
-    <div class="home">
-                    
-        <img id="Logo" src="LogoKeiFondo.jpg" alt="Logo KJ Nails">                
-        <h4 class="in-flex">📍 Necochea 📍 Mar del Plata</h4>
-        
-        <a id="reserva" href="#Reserva">¡Reservá tu turno!</a> 
-                   
-        <a id="insta" href="https://www.instagram.com/nailsk.j/" target="_blank"><Img src="Ig2.png" alt="Instagram"></a>
-        <a id="wpp" href="https://wa.me/message/RK5NU4ZLDEVOB1" target="_blank"><Img src="wpp3.png"></a>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="nombrelogo">KJ BeautyStudio</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+
+        </header>
+        <aside>
+            <header class="header-mobile">
+                <h1 class="logo">KJ BeautyStudio</h1>
             
-            
-        <br>
-        <h1 id="Mani" class="wrapper">MANICURA</h1>
-        <h2 id="Semi">SEMIPERMANENTES</h2>
-        <div id="semipermanentes">
-            <div class="content in-flex">
-                <h3>¿Que es la manicura semipermanente?</h3>
-                <hr>
-                <p>
-                    La manicura semipermanente es un esmaltado de secado inmediato y de larga duración que mantiene un resultado reluciente. Este efecto se consigue con la aplicación de esmaltes específicos y el secado de las uñas en una luz UV o LED.
-                </p>
+            <button id="close-menu" class="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a id="volver" class="boton-categoria boton-volver" href="Productos.html"><i class="bi bi-arrow-left-square-fill"></i>Volver</a>
+                    </li>
+                    <li>
+                        <a id="carrito" class="boton-menu boton-categoria boton-carrito carrito active"><i class="bi bi-cart-fill"></i>Carrito</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p class="texto-footer">© KJ BeautyStudio</p>
+            </footer>
+        </aside>
+        <main>
+
+            <h1 id="titulo-principal" class="tituloPrincipal">♥ Carrito ♥</h1>
+            <div class="contenedor-carrito"> 
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+                
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Se Rellenará con JS -->
+                </div>
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total</p>
+                            <p id="total">$2000</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                </div>
             </div>
-        </div>
-
-        <h2 id="kapp">KAPPING</h2>
-        <div id="kapping">
-            <div class="content in-flex">
-                <h3>¿Que es el Kapping?</h3>
-                <hr>
-                <p>
-                    El Kapping consiste en aplicar una fina capa de acrílico o gel fortificador sobre la uña que actuará como una barrera protectora. A diferencia de las uñas esculpidas, este baño en gel kapping no alarga la uña natural sino que acompaña el crecimiento de la misma y dura hasta 20 días.
-                </p>
+            <p id="carrito-comprado" class="disabled carrito-comprado " >Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
             </div>
-        </div>
-
-        <h2 id="Nail">NAIL ART</h2>
-        <div id="nailart">
-            <div class="content in-flex">
-            <h3>¿Qué es nail art?</h3>
-            <hr>
-                <p>
-                    De forma rápida y sencilla, nail art o arte de uñas, en traducción al español - es un conjunto de formas creativas de pintar y decorar uñas, escapando del esmalte tradicional.
-                </p>
-            </div>
-        </div>
-
-        <h2 id="Esculp">ESCULPIDAS EN GEL</h2>
-        <div id="esculpidas">
-            <div class="content in-flex">
-                <h3>¿Qué es el Esculpido en Gel?</h3>
-                <hr>
-                    <p>
-                        Las uñas esculpidas en gel son extensiones artificiales de las uñas realizadas con geles de construcción, utilizando moldes para dar la forma y extensión deseada. Como la palabra lo indica, lo que se hace es “esculpir” una uña artificial sobre la uña natural, fijándola con luz ultravioleta.
-                    </p>
-            </div>
-        </div>
-
-        <h2 id="Soft">SISTEMA SOFT GEL</h2>
-        <div id="softgel">
-            <div class="content in-flex">
-                <h3>¿Qué es el Sistema Soft Gel?</h3>
-                <hr>
-                    <p>
-                    Se trata de unos tips fabricados con gel que cubren la uña natural. Se adhieren con una base permanente UV LED, o con gel para presson, y se curan con lámpara UV/LED.
-                    </p>
-                </div>
-        </div>
-
-        <h2 id="Tips">TIPS</h2>
-        <div id="tipsesc">
-            <div class="content in-flex">
-                <h3>¿Como cuido mis esculpidas?</h3>
-                <hr>
-                    <ul>
-                        <li id="Lista1">No exponer las manos en agua caliente por mucho tiempo</li>
-                        <li id="Lista2">Evitar el contacto directo con productos químicos, utilizar guantes</li>
-                        <li id="Lista3">La duración de tus uñas esculpidas se ve alterada si tus uñas son oleosas</li>
-                        <li id="Lista4">No morder las uñas ni utilizarlas como herramientas</li>
-                        <li id="Lista5">El esmalte debe ser retirado por un profesional , no se debe arrancar</li>
-                    </ul>
-                </div>
-        </div>
-        <h1 id="Cejas" class="wrapper">CEJAS</h1>
-
-        <h2 id="Perf">PERFILADO</h2>
-        <div id="perfilado">
-            <div class="content in-flex">
-                <h3>¿Qué es el perfilado de cejas?</h3>
-                <hr>
-                    <p>
-                        Es un servicio personalizado de depilación que consiste en dar la forma correcta a las cejas respetando la forma natural de las mismas, obteniendo beneficios inmediatos ya que resalta, rejuvenece y levanta la mirada
-                    </p>
-                </div>
-        </div>
-
-        <h2 id="Lami">LAMINADO</h2>
-        <div id="laminado">
-            <div class="content in-flex">
-                <h3>¿Qué es el Laminado de Cejas?</h3>
-                <hr>
-                    <p>
-                        Es un tratamiento especialmente indicado para cejas onduladas y/o rebeldes. Consiste en la aplicación de producto específico en toda la extensión de las cejas para alisarlas y peinarlas de forma permanente.
-                    </p>
-                </div>
-        </div>
-        <h1 id="Pestañas" class="wrapper">PESTAÑAS</h1>
-
-        <h2 id="Ext">Extensión de pestaña por pelo</h2>
-        <div id="extension">
-            <div class="content in-flex">
-                <h3>¿Qué es la extensión pelo por pelo?</h3>
-                <hr>
-                    <p>
-                        Es  lo  último  para  lograr  una mirada  más  impactante.  Las  pestañas  naturales  suelen  componerse  de entre  80  y  100  pestañas  (de  media).  Con  las  extensiones  se  duplica  la cantidad,   consiguiendo   una   mirada   mucho   más   frondosa,   intensa y realzada.                    </p>
-                </div>
-        </div>
-
-        <h2 id="Lift">LIFTING</h2>
-        <div id="lifting">
-            <div class="content in-flex">
-                <h3>¿Qué es el Lifting?</h3>
-                <hr>
-                    <p>
-                        Es considerada una técnica muy poco abrasiva, ya que se realiza en la pestaña natural, el lifting de pestañas consiste en hacer un levantamiento de las mismas, elevando la curvatura, resaltando la expresión de la mirada y alargándolasdesde la raíz sin la utilización de pelo sintético                    </p>
-                </div>
-        </div>
-
-        <h2 id="LiftK">LIFTING CON KERATINA</h2>
-        <div id="liftingK">
-            <div class="content in-flex">
-                <h3>¿Qué es el Lifting con Keratina?</h3>
-                <hr>
-                    <p>
-                        El laminado con keratina consigue el mismo efecto de curvatura de manera más suave y menos agresiva para la pestaña, ya que la fórmula contiene keratina y aceites nutritivos en su formulación. Indicado para pestañas más finas o débiles.                </div>
-        </div>
-
-
-
-
-
-        <h1 id="Cejas" class="wrapper">CERTIFICACIONES</h1>
-        <div id="sobremi">
-            <div class="content in-flex">   
-                <p>Soy Keila Yael Jansen, me especializo en.... Me gradué en ..... </p>
-                <Img id="Cert1" src="Certificado1.jpeg">
-                <p> <Img src="Certificado2"></p>
-                <p> <Img src="Certificado3"></p>
-            </div>
-        </div>
-        <div class="content in-flex">
-            <a id="instaC" href="https://www.instagram.com/nailsk.j/"  target="_blank">♥ KJ Nails ♥</a>
-            <a id="instaC2" href="https://www.instagram.com/kj.beautystudio/"  target="_blank">♥ KJ Beauty Studio ♥</a>
-            <a id="wppB" href="https://wa.me/message/RK5NU4ZLDEVOB1"  target="_blank">♥ +54 9 223 669-0396 ♥</a> 
-
-        </div>
+        </main>
     </div>
+
+    
+    <script src="carrito.js"></script>
+    <script src="menu.js"></script>
+
 </body>
 
-<footer>
-</footer>
-</html>
+
+
+    </html>
