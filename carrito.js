@@ -33,6 +33,7 @@ function cargarProductosCarrito() {
                     <small id="servicio">Servicio</small>
                     <h3>${producto.titulo}</h3>
                 </div>
+            
             <div class="prueba">
                 <div class="carrito-producto-cantidad">
                     <small>Cantidad</small>

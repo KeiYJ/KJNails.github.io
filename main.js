@@ -2,16 +2,6 @@
 const productos = [
   //♥ MANICURÍA ♥
   {
-    id: "SemipermanenteStrass",
-    titulo: "Semipermanente con 2 Strass",
-    imagen: "Img2/SemiStrass.png",
-    categoria: {
-      nombre: "♥ MANICURÍA ♥",
-      id: "♥ MANICURÍA ♥"
-    },
-    precio: 1700
-  }, 
-  {
     id: "SemipermanenteLiso",
     titulo: "Semipermanente Liso",
     imagen: "Img2/SemipermanenteLiso.png",
@@ -22,8 +12,18 @@ const productos = [
     precio: 1500
   }, 
   {
+    id: "SemipermanenteStrass",
+    titulo: "Semi con 2 Strass",
+    imagen: "Img2/SemiStrass.png",
+    categoria: {
+      nombre: "♥ MANICURÍA ♥",
+      id: "♥ MANICURÍA ♥"
+    },
+    precio: 1700
+  }, 
+  {
     id: "Kapping",
-    titulo: "Kapping + Esmaltado liso",
+    titulo: "Kapping + Esmaltado",
     imagen: "Img2/KappingLiso.png",
     categoria: {
       nombre: "♥ MANICURÍA ♥",
@@ -93,7 +93,7 @@ const productos = [
   },
   {
     id: "extension",
-    titulo: "Extensión pelo por pelo",
+    titulo: "Extensión pelo x pelo",
     imagen: "Img2/Extension.png",
     categoria: {
       nombre: "♥ PESTAÑAS ♥",

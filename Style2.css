@@ -7,7 +7,7 @@
     --clr-white: #fff;
     --clr-swhite: #fff0f3;
     --clr-gray: #fffefe;
-    --clr-red: #ea3939;
+    --clr-red: #d41818;
 }
 
 * {
@@ -174,7 +174,7 @@ main {
 
 .producto-detalles {
     background-color: var(--clr-main);
-    color: white;
+    color: var(--clr-white);
     padding: .5rem;
     border-radius: 1rem;
     margin-top: -2rem;
@@ -208,7 +208,7 @@ main {
     color: var(--clr-swhite);
 }
 
-/** Carrito **/
+/***************** Carrito ***********************/
 .contenedor-carrito {
     display: flex;
     flex-direction: column;
@@ -226,21 +226,9 @@ main {
     gap: 1rem;
     font-weight: 500;
 }
-.carrito-producto-eliminar {
-    position: absolute;
-    right: 5rem;
-}
-.prueba {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap:  9rem;
-    position: absolute;
-    right: 20rem;
 
-}
+
 .carrito-producto {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--clr-gray);
@@ -248,22 +236,31 @@ main {
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
+    gap: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .carrito-producto-imagen {
-    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
     border-radius: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito-producto-titulo {
+    text-align: center;
 }
 
 .carrito-producto small {
     font-size: .80rem;
     font-weight: 500;
-}
-.carrito-producto-titulo {
-    position: absolute;
-    text-align: left;
-    left: 40rem;
 }
 
 .carrito-producto-cantidad, .carrito-producto-precio, .carrito-producto-subtotal {
@@ -272,10 +269,12 @@ main {
 
 .carrito-producto-eliminar {
     border: 0;
-    background-color: transparent;
-    color: var(--clr-red);
+    background-color: var(--clr-red);
+    padding-inline: 3rem;
+    border-radius: 1rem;
+    color: var(--clr-swhite);
     cursor: pointer;
-    font-size: 100%;
+    font-size: 2rem;
 }
 
 .carrito-acciones {
@@ -330,7 +329,14 @@ main {
     display: flex;
 }
 
-/*** MEDIA QUERIES ***/
+.prueba {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+/***************** MEDIA QUERIES **********************/
 
 
 @media screen and (max-width: 1000px) {
