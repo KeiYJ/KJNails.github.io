@@ -1,580 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&family=Yellowtail&display=swap');
-html{
-    scroll-behavior: smooth;
-}
-body { 
-    margin: 0;
-    padding: 0;
-    background-color: #181818;
-    display: flex;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <meta name="description" content="Mar del Plata - Necochea. Hago Kapping, Semipermanentes, NailArt, Esculpidas, SoftGel">
+    <meta name="keywords" content="kj nails, kj, kj beauty studio, uñas, kapping, capping, semi, semipermanentes, semipermanente, nailart, nail art, esculpidas, softgel, necochea, mar del plata, manicura, uñas necochea, kapping necochea, semipermanentes necochea, softgel necochea, polygel necochea, esculpidas necochea, uñas mar del plata, kapping mar del plata, semipermanentes mar del plata, softgel mar del plata, polygel mar del plata, esculpidas mar del plata">
+    <meta name="author" content="Nicola Satragni">
+    <meta name="google-site-verification" content="9Op6S-g50Akos0n7mcVhvdhc169Iwrav7F0DkyloVh4" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>KJ BeautyStudio</title>
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="Icon" href="Img/LogoKeiFondo.jpg">
+</head>
 
-.home {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
-}
+<body>
 
-.in-flex {
-    flex: 1;
-    min-width: 300px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-    overflow-x: hidden;
-}
-
-.in-flex:first-child {
-    flex: 2;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-}
-
-.in-flex div {
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-}
-
-#reserva:hover {
-    box-shadow: 0 0 35px #fff;
-    transform: scale(1.1);
-}
-#reserva {
-    position: block;
-    background-color: crimson;
-    border-radius: 5pc;
-    font-family: "roboto";
-    font-weight: bold;
-    font-size: 50px;
-    transition: .2s;
-    margin-left:auto;
-    margin-right:auto;
-    flex-direction:column;
-    padding:1em;
-    margin-bottom:6em
-}
-
-/* MENU DESPLEGABLE*/
-
-a {
-    text-decoration: none;
-    color: #fff;
-
-    line-height: 35px;
-
-}
-#inicio {
-    font-family: "yellowtail";
-    font-size: 35px;
-    text-decoration:underline;
-    color: #1b1b1b;
-
-}
-
-.toggle_btn {
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    background-color: crimson;
-    opacity: 0.9;
-    font-size: 30px;
-    width: 68px;
-    height: 68px;
-    border-radius: 50%;
-    line-height: 69px;
-    cursor: pointer;
-    transition: .3s;
-    left: 50px;
-    top: 50px;
     
-}
-li {
-    list-style: none;
-    text-indent: 0;
-}
-i {
-    position: relative;
-    left: 20px;
-    color: #fff;
-}
-.toggle_btn:hover{
-    box-shadow: 0 0 35px #fff;
-    }
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="nombrelogo">KJ BeautyStudio</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
 
-.dropdown_menu { 
-    position: absolute;
-    text-decoration: none;
-    color: #fff;
-    font-family: "roboto";
-    font-weight: bold;
-    background-color: crimson;
-    opacity: 0.9;
-    width: 190px;
-    height: 0px;
-    left: 50px;
-    top: 130px;
-    border-radius: 10px;
-    display: none;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
+        </header>
+        <aside>
+            <header class="header-mobile">
+                <h1 class="logo">KJ BeautyStudio</h1>
+            
+            <button id="close-menu" class="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a id="volver" class="boton-categoria boton-volver" href="Productos.html"><i class="bi bi-arrow-left-square-fill"></i>Volver</a>
+                    </li>
+                    <li>
+                        <a id="carrito" class="boton-menu boton-categoria boton-carrito carrito active"><i class="bi bi-cart-fill"></i>Carrito</a>
+                    </li>
+                </ul>
+            </nav>
 
-    .dropdown_menu.open {
-        position: fixed;
-        height: 620px;
-        display: block;
-    }
+            <footer>
+                <p class="texto-footer">© KJ BeautyStudio</p>
+            </footer>
+        </aside>
+        <main>
+
+            <h1 id="titulo-principal" class="tituloPrincipal">♥ Carrito ♥</h1>
+            <div class="contenedor-carrito"> 
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+                
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Se Rellenará con JS -->
+                </div>
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total</p>
+                            <p id="total">$2000</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                </div>
+            </div>
+            <p id="carrito-comprado" class="disabled carrito-comprado " >Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+            </div>
+        </main>
+    </div>
+
     
+    <script src="carrito.js"></script>
+    <script src="menu.js"></script>
+
+</body>
 
 
 
-a:hover {
-    color: #1b1b1b;
-    font-size: larger;
-
-}
-#manicu, #cej, #pesta, #comp {
-    font-family: "yellowtail";
-    font-size: 29px;
-    text-decoration:underline;
-    color: #1b1b1b;
-}
-
-#manicu:hover, #cej:hover, #pesta:hover, #comp:hover{
-    font-size: larger;
-}
-
-/*FIN MENU DESPLEGABLE*/
-
-
-
-h1 {
-    font-family: "Roboto";
-    color: #1b1b1b;
-    font-size: 6em;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    margin-bottom: 0%;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-}
-.wrapper {
-    display: flex;
-    background:#ffe3ce;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    width: 100%;
-}
-#Cejas {
-    font-size: 6em;
-}
-h4 {
-    font-family: "Roboto";
-    color: #fff;
-    font-size: 2.2em;
-    text-align: left;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0%;
-}
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 4px;
-    width: 90%;
-    color: #fff;
-  }
-a img{
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-}
-a img:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-
-a {
-   overflow-y: hidden
-}
-
-#insta, #wpp{
-    padding-top: 3em;
-    padding-bottom: 2em;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#Logo {
-    border-radius: 9em;
-    display:flex;
-    flex-direction: column;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-h2 {
-    font-family: "yellowtail";
-    text-align: center;
-    font-size: 3.5em;
-    color: #ffe3ce;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-   
-}
-
-h3 {
-    font-family: "Alkatra";
-    margin: 0;
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #F99099;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-  
-}
-
-#semipermanentes {
-    background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Img/Semi2.png");
-    background-attachment: scroll;
-    background-size:cover;
-    background-position:center center;
-    min-height: 90em;
-    padding: 0;
-    display: flex;
-    width: 100%;
-    height: auto;
-    
-    
-    
-
-   
-  width: 100%;
-  height: 90em;
-  background-image: url("Img/Semi2.png");
-  background-size: cover; /* or "contain" depending on what you want */
-
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-align:center;
-  margin-left: auto;
-    margin-right: auto;
-  padding:0; 
-   
-}
-
-
-#kapping {
-    background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.6)), url("Img/Kapping.png");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position:center center;
-    min-height: 90em;
-    padding: 0; 
-    margin: 0;
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-
-#nailart {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/NailArt.png");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0;  
-    margin: 0;
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-
-#esculpidas {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/Esculpidas.png");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    display: flex;  
-    min-height: 90em;
-    padding: 0; 
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-
-#softgel {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/SoftGel.png");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0; 
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-#tipsesc {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("Img/Tips.png");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0; 
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-
-ul{
-    font-family: "Alkatra";
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    width: 80%;
-}
-
-
-#Lista1 {
-    margin: 0;
-    padding: 36px 0 36px 84px;
-    list-style: none;
-    background-image: url("Img/Lista1.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 2.9em;
-    color: #fa93d3;
-    background-position-x: -0.02em;
-}
-
-#Lista2 {
-    margin: 0;
-    padding: 36px 0 36px 84px;
-    list-style: none;
-    background-image: url("Img/Lista2.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 2.9em;
-    color: black;
-    background-position-x: -0.11em;
-}
-#Lista3 {
-    margin: 0;
-    padding: 36px 0 36px 84px;
-    list-style: none;
-    background-image: url("Img/Lista3.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 3em;
-    color: #fa93d3; 
-    background-position-x: -0.11em;
-}
-#Lista4 {
-    margin: 0;
-    padding: 36px 0 36px 84px;
-    list-style: none;
-    background-image: url("Img/Lista4.webp");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 3em; 
-    color: black;
-    background-position-x: -0.11em;
-}
-#Lista5 {
-    margin: 0;
-    padding: 36px 0px 36px 84px;
-    list-style: none;
-    background-image: url("Img/Lista5.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 2.3em;
-    background-position-x: -0.4em;
-    color: #fa93d3;
-}
-
-
-#perfilado {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Perfilado.jpg");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0; 
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-#laminado {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Laminado.jpg");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0; 
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-
-
-#extension {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Extension.jpg");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0; 
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-#lifting {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Lifting.jpg");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0; 
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-#liftingK {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/LiftingK.jpg");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    min-height: 90em;
-    padding: 0; 
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-#sobremi{
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url("Img/Certificacion.jpeg");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-   
-    margin: 0;
-    min-height: 90em;
-    padding: 0;  
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-p {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-.content {
-    text-align: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
-    
-    display:flex;
-    /*font-weight: bold;*/
-    color: white;
-    font-family: "Alkatra";
-    color: #fff;
-    font-size: 1.9em;
-    flex-direction: column;
-    justify-content: center;
-    overflow-x: hidden;
-}
-#final {
-    line-height: 2.1em;
-}
-#Cert1 {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#instaC, #instaC2, #wppB {
-    font-family: "yellowtail";
-    text-align: center;
-    font-size: 1.5em;
-    color: #ffe3ce;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    overflow-y: hidden;
-}
-#instaC:hover, #instaC2:hover, #wppB:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-.final {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 4em;
-}
-
-@media(min-width: 952px) {
-    #semipermanentes, #kapping, #esculpidas, #nailart, #softgel, #tipsesc, #perfilado, #laminado, #extension, #lifting, #liftingK, #sobremi { 
-        background-attachment: fixed;
-    }
-    a img {
-        padding-bottom: 3em;
-        margin-top: 0%;
-        width:35%;
-    }
-    #Logo {
-        width: 20%;
-    }
-    #instaC, #instaC2, #wppB { font-size: 1em;
-    }
-    
-    #reserva {
-    font-size: 30px;
-    transition: .2s;
-    margin-left:auto;
-    margin-right:auto;
-    flex-direction:column;
-    padding:1em;
-    margin-bottom:1em;
-    }
-}
+    </html>
