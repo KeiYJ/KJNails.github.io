@@ -127,7 +127,7 @@ i {
 
     .dropdown_menu.open {
         position: fixed;
-        height: 590px;
+        height: 620px;
         display: block;
     }
     
@@ -139,14 +139,14 @@ a:hover {
     font-size: larger;
 
 }
-#manicu, #cej, #pesta {
+#manicu, #cej, #pesta, #comp {
     font-family: "yellowtail";
     font-size: 29px;
     text-decoration:underline;
     color: #1b1b1b;
 }
 
-#manicu:hover, #cej:hover, #pesta:hover{
+#manicu:hover, #cej:hover, #pesta:hover, #comp:hover{
     font-size: larger;
 }
 
@@ -200,12 +200,8 @@ hr {
   }
 a img{
     display:flex;
-    margin-top: 2.4em;
-    margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
-    height: auto;
     flex-direction: column;
 }
 a img:hover {
@@ -215,12 +211,14 @@ a img:hover {
 
 a {
    overflow-y: hidden
-   }
-#insta {
-    padding-bottom: 2.2em;
 }
-#wpp {
-    padding-bottom: 2.2em;
+
+#insta, #wpp{
+    padding-top: 3em;
+    padding-bottom: 2em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Logo {
@@ -262,7 +260,7 @@ h3 {
 }
 
 #semipermanentes {
-    background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Semi2.png");
+    background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url("Img/Semi2.png");
     background-attachment: scroll;
     background-size:cover;
     background-position:center center;
@@ -278,7 +276,7 @@ h3 {
    
   width: 100%;
   height: 90em;
-  background-image: url("Semi2.png");
+  background-image: url("Img/Semi2.png");
   background-size: cover; /* or "contain" depending on what you want */
 
   background-position: center center;
@@ -292,7 +290,7 @@ h3 {
 
 
 #kapping {
-    background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.6)), url("Kapping.png");
+    background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.6)), url("Img/Kapping.png");
     background-attachment: scroll;
     background-size: cover;
     background-position:center center;
@@ -306,7 +304,7 @@ h3 {
 }
 
 #nailart {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("NailArt.png");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/NailArt.png");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -320,7 +318,7 @@ h3 {
 }
 
 #esculpidas {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Esculpidas.png");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/Esculpidas.png");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -334,7 +332,7 @@ h3 {
 }
 
 #softgel {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("SoftGel.png");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url("Img/SoftGel.png");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -346,7 +344,7 @@ h3 {
     width: 100%;
 }
 #tipsesc {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("Tips.png");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("Img/Tips.png");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -372,7 +370,7 @@ ul{
     margin: 0;
     padding: 36px 0 36px 84px;
     list-style: none;
-    background-image: url("Lista1.png");
+    background-image: url("Img/Lista1.png");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 2.9em;
@@ -384,7 +382,7 @@ ul{
     margin: 0;
     padding: 36px 0 36px 84px;
     list-style: none;
-    background-image: url("Lista2.png");
+    background-image: url("Img/Lista2.png");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 2.9em;
@@ -395,7 +393,7 @@ ul{
     margin: 0;
     padding: 36px 0 36px 84px;
     list-style: none;
-    background-image: url("Lista3.png");
+    background-image: url("Img/Lista3.png");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 3em;
@@ -406,7 +404,7 @@ ul{
     margin: 0;
     padding: 36px 0 36px 84px;
     list-style: none;
-    background-image: url("Lista4.webp");
+    background-image: url("Img/Lista4.webp");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 3em; 
@@ -417,7 +415,7 @@ ul{
     margin: 0;
     padding: 36px 0px 36px 84px;
     list-style: none;
-    background-image: url("Lista5.png");
+    background-image: url("Img/Lista5.png");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 2.3em;
@@ -427,7 +425,7 @@ ul{
 
 
 #perfilado {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Perfilado.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Perfilado.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -439,7 +437,7 @@ ul{
     width: 100%;
 }
 #laminado {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Laminado.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Laminado.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -453,7 +451,7 @@ ul{
 
 
 #extension {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Extension.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Extension.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -465,7 +463,7 @@ ul{
     width: 100%;
 }
 #lifting {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Lifting.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/Lifting.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -477,7 +475,7 @@ ul{
     width: 100%;
 }
 #liftingK {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("LiftingK.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("Img/LiftingK.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -489,7 +487,7 @@ ul{
     width: 100%;
 }
 #sobremi{
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url("Certificacion.jpeg");
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url("Img/Certificacion.jpeg");
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -512,7 +510,7 @@ p {
     text-align: center;
     padding-top: 4em;
     padding-bottom: 4em;
-    position:abs;
+    
     display:flex;
     /*font-weight: bold;*/
     color: white;
@@ -534,24 +532,28 @@ p {
 #instaC, #instaC2, #wppB {
     font-family: "yellowtail";
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #ffe3ce;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
     margin: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /*width: auto;
-    height: auto;*/
     overflow-y: hidden;
 }
 #instaC:hover, #instaC2:hover, #wppB:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }
+.final {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 4em;
+}
 
-@media(min-width: 952px){
+@media(min-width: 952px) {
     #semipermanentes, #kapping, #esculpidas, #nailart, #softgel, #tipsesc, #perfilado, #laminado, #extension, #lifting, #liftingK, #sobremi { 
         background-attachment: fixed;
     }
@@ -567,13 +569,12 @@ p {
     }
     
     #reserva {
-    font-size: 34px;
+    font-size: 30px;
     transition: .2s;
     margin-left:auto;
     margin-right:auto;
     flex-direction:column;
     padding:1em;
-    margin-bottom:3em
+    margin-bottom:1em;
     }
 }
-
