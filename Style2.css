@@ -63,6 +63,7 @@ aside {
     display: none;
 }
 
+
 .boton-menu {
     background-color: transparent;
     border: 0;
@@ -84,11 +85,15 @@ aside {
     font-size: 1rem;
     cursor: pointer;
     display: flex;
-    gap: 2rem;
+    gap: 1.9rem;
     font-weight: 600;
     padding: 1rem;
     width: 100%;
     align-items: center;
+}
+.boton-categoria:hover {
+    transition: .15s;
+    transform: scale(1.1);
 }
 
 .boton-categoria.active {
@@ -120,9 +125,55 @@ aside {
     border-top-right-radius: .5rem;
     box-shadow: 0 -1rem 0 var(--clr-swhite);
 }
+#volver {
+    color: var(--clr-white);
+    /* background-color: var(--clr-swhite); */
+    border-radius: 5rem;
 
-.carrito {
+    margin-bottom: 3vh;
+    padding-right: 0;
+    width: 120%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+.seña {
+    color: var(--clr-main);
+    background-color: var(--clr-main-light);
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    display: flex;
+    position: absolute;
+}
+.seña:hover {
+    transition: .15s;
+    transform: scale(1.1);
+}
+#señamob {
+    background-color: var(--clr-swhite);
+    top: 2.5rem;
+    right: 0.8rem;
+}
+#señapc {
     margin-top: 2rem;
+    display: flex;
+    padding:2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+.divisor {
+    width:70%;
+    border: 1px dashed var(--clr-swhite);
+    border-radius: 20rem;
+
+}
+
+#carrito {
+    margin-top: 4vh;
+
+
 }
 
 .boton-categoria > i.bi-hand-index-thumb {
@@ -160,7 +211,6 @@ main {
     padding: .8rem;
     border-radius: 2rem;
     color: var(--clr-main);
-
 }
 .contenedor-productos {
     display: grid;
@@ -192,6 +242,7 @@ main {
 
 
 .producto-agregar {
+    color: var(--clr-main);
     border: 0;
     background-color: var(--clr-swhite);
     padding: .4rem;
@@ -358,7 +409,9 @@ main {
     .nombrelogo {
         font-size: 1rem;
     }
-
+    .tituloPrincipal {
+        font-size: 1.3rem;
+    }
 
     aside {
         position: fixed;
@@ -369,13 +422,14 @@ main {
         transform: translateX(-100%);
         opacity: 0;
         visibility: hidden;
+        transition: .2s;
     }
 
     .aside-visible {
         transform: translateX(0);
         opacity: 1;
         visibility: visible;
-        /*padding-right: 2rem;*/
+        transition: .2s;
 
     }
 
@@ -386,7 +440,7 @@ main {
 
     main {
         margin: 1rem;
-        margin-top: 0;
+        margin-top: 1.5rem;
         padding: 2rem;
     }
 
@@ -404,28 +458,35 @@ main {
 
     .nombrelogo {
         color: var(--clr-swhite);
+        left: 35%;
+        top: 1%;
+        position: absolute;
+        display: flex;
     }
 
     
     .open-menu {
-        background-color: transparent;
-        color: var(--clr-swhite);
-        opacity: 1;
-        font-size: 1.5rem;
+        background-color: var(--clr-swhite);
         border-radius: 50%;
+        color: var(--clr-main);
+        opacity: 1;
+        font-size: 1.4rem;
         cursor: pointer;
         border: 0;
-        z-index: 8;
         display: flex;
-        position: absolute;
-        right: 1rem;
+        top: 0.9rem;
+        padding: 0.3rem;
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
+        display: flex;
+        position: relative;
 
     }
     .close-menu {
         position: absolute;
         background-color: var(--clr-main-light);
         border: 0;
-        color: var(--clr-main);
+        color: var(--clr-white);
         justify-content: center;
         font-size: 1.5rem;
         left: 25%;
@@ -474,5 +535,6 @@ main {
     .producto-titulo {
         font-size: .8rem;
     }
+
 
 }
